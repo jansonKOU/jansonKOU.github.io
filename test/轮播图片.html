@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="author" content="janson">
+        <title></title>
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            .carousel{
+                width: 600px;
+                margin: 0px auto;
+            }
+            .item img{
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="carousel slide" id="pic">
+            <ol class="carousel-indicators">
+                <li data-target="#pic" data-slide-to="0" class="active"></li>
+                <li data-target="#pic" data-slide-to="1"></li>
+                <li data-target="#pic" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item" class="active"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+            </div>
+            <a href="#pic" class="carousel-control"></a>
+        </div> 
+
+        <div class="carousel slide" id="sec">
+            <ol class="carousel-indicators">
+                <li data-target="#sec" data-slide-to="0"></li>
+                <li data-target="#sec" data-slide-to="1"></li>
+                <li data-target="#sec" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item"></div>
+            </div>
+        </div>             
+        <script src="bootstrap/js/jquery.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
